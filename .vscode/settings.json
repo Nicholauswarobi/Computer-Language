@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "iostream": "cpp",
-        "cmath": "cpp",
-        "utility": "cpp",
-        "xutility": "cpp"
-    },
-    "cmake.sourceDirectory": "C:/Users/Warobi/Desktop/Computer-Language/Qt Apps Learning/New_App"
-}

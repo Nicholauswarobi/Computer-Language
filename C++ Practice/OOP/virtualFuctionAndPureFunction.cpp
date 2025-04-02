@@ -2,7 +2,7 @@
 using namespace std;
 
 
-// Base class
+// Base class (Abstract class)
 class Instrument{
     public:
         // For function to be virtual must have virtual keyword

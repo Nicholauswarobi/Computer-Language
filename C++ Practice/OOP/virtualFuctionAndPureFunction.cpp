@@ -21,10 +21,9 @@ class Accordion: public Instrument{
 int main(){
 
     // Object
-    Instrument I1;
-    Accordion I2;
-    I1.MakeSound();
-    I2.MakeSound();
+    Instrument* I1 = new Accordion();
+    I1->MakeSound();
+    
 
 
     

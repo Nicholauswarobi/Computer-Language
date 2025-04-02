@@ -28,8 +28,13 @@ int main(){
     // Object
     Instrument* I1 = new Accordion();
     Instrument* I2 = new Piano();
-    I1->MakeSound();
-    I2->MakeSound();
+    // I1->MakeSound();
+    // I2->MakeSound();
+
+    Instrument* instruments[2] = {I1, I2};
+    for (int i = 0; i < 2; i++){
+        instruments[i]->MakeSound();
+    }
     
     system("pause > 0");
     return 0;

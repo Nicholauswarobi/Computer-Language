@@ -25,7 +25,6 @@ class Piano: public Instrument{
 
 int main(){
 
-    // Object
     Instrument* I1 = new Accordion();
     Instrument* I2 = new Piano();
     // I1->MakeSound();

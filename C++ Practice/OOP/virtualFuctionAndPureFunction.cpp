@@ -24,9 +24,6 @@ int main(){
     Instrument* I1 = new Accordion();
     I1->MakeSound();
     
-
-
-    
     system("pause > 0");
     return 0;
 }

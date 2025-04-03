@@ -176,53 +176,53 @@ using namespace std;
 
 
 
-// Example 3: Runtime Polymorphism (Virtual Functions)
+// // Example 3: Runtime Polymorphism (Virtual Functions)
 
-class Animal {
-    public:
-        virtual void sound() { cout << "Animal sound" << endl; }
-    };
+// class Animal {
+//     public:
+//         virtual void sound() { cout << "Animal sound" << endl; }
+//     };
     
-    class Dog : public Animal {
-    public:
-        void sound() override { cout << "Bark!" << endl; }
-    };
+//     class Dog : public Animal {
+//     public:
+//         void sound() override { cout << "Bark!" << endl; }
+//     };
     
-    class Cat : public Animal {
-    public:
-        void sound() override { cout << "Meow!" << endl; }
-    };
+//     class Cat : public Animal {
+//     public:
+//         void sound() override { cout << "Meow!" << endl; }
+//     };
     
-    int main() {
-        Animal *a1 = new Dog();
-        Animal *a2 = new Cat();
-        a1->sound(); // Bark! (Dog's version)
-        a2->sound(); // Meow! (Cat's version)
-        delete a1, a2;
-        return 0;
-    }
+//     int main() {
+//         Animal *a1 = new Dog();
+//         Animal *a2 = new Cat();
+//         a1->sound(); // Bark! (Dog's version)
+//         a2->sound(); // Meow! (Cat's version)
+//         delete a1, a2;
+//         return 0;
+//     }
 
 
 
 
-    Example 4: Pure Virtual Function (Abstract Class)
+//    // Example 4: Pure Virtual Function (Abstract Class)
 
-    class Shape {
-        public:
-            virtual void draw() = 0; // Pure virtual
-        };
+    // class Shape {
+    //     public:
+    //         virtual void draw() = 0; // Pure virtual
+    //     };
         
-        class Circle : public Shape {
-        public:
-            void draw() override { cout << "Drawing Circle" << endl; }
-        };
+    //     class Circle : public Shape {
+    //     public:
+    //         void draw() override { cout << "Drawing Circle" << endl; }
+    //     };
         
-        int main() {
-            Shape *s = new Circle();
-            s->draw(); // Calls Circle's draw()
-            delete s;
-            return 0;
-        }
+    //     int main() {
+    //         Shape *s = new Circle();
+    //         s->draw(); // Calls Circle's draw()
+    //         delete s;
+    //         return 0;
+    //     }
 
 
 

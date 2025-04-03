@@ -105,3 +105,4 @@ int main(){
         delete moaster[i];
     }
 }
+

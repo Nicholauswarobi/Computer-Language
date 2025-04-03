@@ -68,7 +68,7 @@ using namespace std;
         
     //     class Document : public IPrintable {
     //     public:
-    //         void print() override { cout << "Printing document..." << endl; }
+    //         void print(){cout << "Printing document..." << endl; }
     //     };
         
     //     int main() {
@@ -89,7 +89,7 @@ using namespace std;
     
 //     class MySQL : public Database {
 //     public:
-//         void connect() override { cout << "MySQL connected!" << endl; }
+//         void connect(){ cout << "MySQL connected!" << endl; }
 //     };
     
 //     int main() {
@@ -140,7 +140,7 @@ class Shape {
     class Triangle : public Shape {
     public:
         Triangle() : Shape(3) {}
-        void draw() override { cout << "Drawing Triangle (" << sides << " sides)" << endl; }
+        void draw(){ cout << "Drawing Triangle (" << sides << " sides)" << endl; }
     };
     
     int main() {

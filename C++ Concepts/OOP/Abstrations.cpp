@@ -80,48 +80,48 @@ using namespace std;
 
 
 
-// Example 3: Abstract Class with Partial Implementation
-class Database {
-    public:
-        virtual void connect() = 0;
-        void testConnection() { cout << "Testing DB..." << endl; }
-    };
+// // Example 3: Abstract Class with Partial Implementation
+// class Database {
+//     public:
+//         virtual void connect() = 0;
+//         void testConnection() { cout << "Testing DB..." << endl; }
+//     };
     
-    class MySQL : public Database {
-    public:
-        void connect() override { cout << "MySQL connected!" << endl; }
-    };
+//     class MySQL : public Database {
+//     public:
+//         void connect() override { cout << "MySQL connected!" << endl; }
+//     };
     
-    int main() {
-        Database *db = new MySQL();
-        db->connect();
-        db->testConnection();
-        delete db;
-        return 0;
-    }
+//     int main() {
+//         Database *db = new MySQL();
+//         db->connect();
+//         db->testConnection();
+//         delete db;
+//         return 0;
+//     }
 
 
 
-// Example 4: Hiding Complex Logic
-class Engine {
-    private:
-        void startSparkPlug() { cout << "Spark plug ignited" << endl; }
-        void injectFuel() { cout << "Fuel injected" << endl; }
+// // Example 4: Hiding Complex Logic
+// class Engine {
+//     private:
+//         void startSparkPlug() { cout << "Spark plug ignited" << endl; }
+//         void injectFuel() { cout << "Fuel injected" << endl; }
     
-    public:
-        void start() {
-            startSparkPlug();
-            injectFuel();
-            cout << "Engine started!" << endl;
-        }
-    };
+//     public:
+//         void start() {
+//             startSparkPlug();
+//             injectFuel();
+//             cout << "Engine started!" << endl;
+//         }
+//     };
     
-    int main() {
-        Engine e;
-        e.start();
-        // e.injectFuel(); // Error (private)
-        return 0;
-    }
+//     int main() {
+//         Engine e;
+//         e.start();
+//         // e.injectFuel(); // Error (private)
+//         return 0;
+//     }
 
 
 
@@ -150,4 +150,3 @@ class Shape {
         return 0;
     }
 
-    

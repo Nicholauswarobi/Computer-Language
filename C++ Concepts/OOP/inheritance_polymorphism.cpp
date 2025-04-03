@@ -65,30 +65,38 @@ class Moaster{
     public:
         string name;
 
+    // Creating Constructor
+    Moaster(string n){
+        name = n;
+    }
+
     virtual void Attacking() = 0;
 
 };
 
 class Vampair: public Moaster{
     public:
+        Vampair() : Moaster("Vampair"){}
         void Attacking(){
-            cout << "attacking by suck the blood.." << endl;
+            cout << name << " is attacking by suck the blood.." << endl;
         }
 };
 
 
 class Zombie: public Moaster{
     public:
+    Zombie() : Moaster("Zombie"){}
         void Attacking(){
-            cout << "attacking by eating body meat.." << endl;
+            cout << name << " is attacking by eating body meat.." << endl;
         }
 };
 
 
 class Dragon: public Moaster{
     public:
+    Dragon() : Moaster("Dragon"){}
         void Attacking(){
-            cout << "attacking firing.." << endl;
+            cout << name << " is attacking firing.." << endl;
         }
 };
 int main(){

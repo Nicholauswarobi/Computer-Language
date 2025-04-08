@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Warobi\Desktop\Computer-Language\build\oneAndOnly_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Warobi\Desktop\Computer-Language\oneAndOnly\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Warobi\Desktop\Computer-Language\oneAndOnly\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Warobi\Desktop\Computer-Language\build\oneAndOnly_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Warobi\Desktop\Computer-Language\build\oneAndOnly_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Warobi\Desktop\Computer-Language\build\oneAndOnly_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Warobi\Desktop\Computer-Language\oneAndOnly\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Warobi\Desktop\Computer-Language\build\oneAndOnly_autogen\include_Debug\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Warobi\Desktop\Computer-Language\build\oneAndOnly_autogen\include_Release\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Warobi\Desktop\Computer-Language\build\oneAndOnly_autogen\include_MinSizeRel\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Warobi\Desktop\Computer-Language\build\oneAndOnly_autogen\include_RelWithDebInfo\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Warobi\Desktop\Computer-Language\build\CMakeFiles\9672dd34485edaeeaa55d577a30e8a71\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Warobi\Desktop\Computer-Language\oneAndOnly\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Warobi\Desktop\Computer-Language\oneAndOnly\mainwindow.ui" />
+    <None Include="C:\Users\Warobi\Desktop\Computer-Language\build\oneAndOnly_autogen\autouic_Debug.stamp" />
+    <None Include="C:\Users\Warobi\Desktop\Computer-Language\build\oneAndOnly_autogen\autouic_Release.stamp" />
+    <None Include="C:\Users\Warobi\Desktop\Computer-Language\build\oneAndOnly_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="C:\Users\Warobi\Desktop\Computer-Language\build\oneAndOnly_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DF293A1A-F12A-3F3E-92F5-434A630C64B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DEDDF7B0-22B9-313F-928E-18FB5D177A1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A7810820-8A05-32C7-9103-F7FE526B2C4B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

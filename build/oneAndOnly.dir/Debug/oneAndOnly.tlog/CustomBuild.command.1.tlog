@@ -1,0 +1,22 @@
+^C:\USERS\WAROBI\DESKTOP\COMPUTER-LANGUAGE\BUILD\CMAKEFILES\9672DD34485EDAEEAA55D577A30E8A71\AUTOUIC_(CONFIG).STAMP.RULE
+setlocal
+cd C:\Users\Warobi\Desktop\Computer-Language\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\WAROBI\DESKTOP\COMPUTER-LANGUAGE\ONEANDONLY\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Warobi/Desktop/Computer-Language/oneAndOnly -BC:/Users/Warobi/Desktop/Computer-Language/build --check-stamp-file C:/Users/Warobi/Desktop/Computer-Language/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

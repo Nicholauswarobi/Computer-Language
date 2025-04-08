@@ -1,0 +1,10 @@
+^C:\USERS\WAROBI\DESKTOP\COMPUTER-LANGUAGE\BUILD\CMAKEFILES\8E399D599674DD8B3D87CB924A2BA2EE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Warobi/Desktop/Computer-Language/oneAndOnly -BC:/Users/Warobi/Desktop/Computer-Language/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Warobi/Desktop/Computer-Language/build/oneAndOnly.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

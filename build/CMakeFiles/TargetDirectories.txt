@@ -1,0 +1,4 @@
+C:/Users/Warobi/Desktop/Computer-Language/build/CMakeFiles/oneAndOnly.dir
+C:/Users/Warobi/Desktop/Computer-Language/build/CMakeFiles/INSTALL.dir
+C:/Users/Warobi/Desktop/Computer-Language/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Warobi/Desktop/Computer-Language/build/CMakeFiles/ZERO_CHECK.dir

@@ -5,22 +5,33 @@ class Demo
 {
 	//access modifier
 	public:
+	string Name;
+	int Age;
+	float* Rates;
+	int RatesCount;
 	//constructor
-	Demo()
-	{
-		cout<<"I am inside constructor\n";
+	Demo(string name, int age){
+		Name = name;
+		Age = age;
+
+		RatesCount = 2;
+		Rates = new float [RatesCount];
+		for (int i = 0; i < 2; i++){
+			Rates[i];
+		}
+		
 	}
 	//destructor
-	~Demo()
-	{
-		cout<<"I am inside destructor\n";
+	~Demo(){
+		delete[] Rates;
+		Rates = nullptr;
 	}
 };
 int main()
 {
-	//creating instance(object)
-	Demo obj;
+	Demo demo("Nungu", 20);
+
+	cout << demo.Age << endl;
+	cout << demo.Name << endl;
+
 }
-### Output ###
-I am inside constructor
-I am inside destructor

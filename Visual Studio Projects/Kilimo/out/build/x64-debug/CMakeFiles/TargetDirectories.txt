@@ -1,0 +1,5 @@
+C:/Users/Warobi/Desktop/Computer-Language/Visual Studio Projects/Kilimo/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/Warobi/Desktop/Computer-Language/Visual Studio Projects/Kilimo/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Warobi/Desktop/Computer-Language/Visual Studio Projects/Kilimo/out/build/x64-debug/Kilimo/CMakeFiles/Kilimo.dir
+C:/Users/Warobi/Desktop/Computer-Language/Visual Studio Projects/Kilimo/out/build/x64-debug/Kilimo/CMakeFiles/edit_cache.dir
+C:/Users/Warobi/Desktop/Computer-Language/Visual Studio Projects/Kilimo/out/build/x64-debug/Kilimo/CMakeFiles/rebuild_cache.dir
